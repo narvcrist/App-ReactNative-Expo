@@ -21,12 +21,6 @@ const Home = ({dataScan = null} ={}) => {
     "Diciembre": 12,
   }
 
-  const placaMayuscula = (placa) => {
-    return placa.toUpperCase()
-  }
-
-  
-
   const onPress = () => {
     const d = new Date();
     const ob = Object.values(month); //Recorro el objeto mes
@@ -78,8 +72,6 @@ const Home = ({dataScan = null} ={}) => {
       <TextInput
         style={styles.input}
         placeholder="INGRESA LA PLACA A CONSULTAR"
-        onChangeText={(val) => setPlaca(val)}
-        value={placaMayuscula(placa)}
         maxLength={7}
       />
 
