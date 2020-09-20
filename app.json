@@ -17,7 +17,7 @@
       "assets/*"
     ],
     "android": {
-      "package": "com.csnn.Pico y Placa",
+      "package": "com.csnn.PicoYPlaca",
       "versionCode" : 1
     },
     "ios": {
