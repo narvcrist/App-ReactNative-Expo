@@ -49,7 +49,7 @@ const Home = ({dataScan = null} ={}) => {
         Alert.alert("Resultado", "Puedes circular los días : Martes, Jueves, Sabado, Domingo")
       } else if (ultimoDigito % 2 == 0 && mes % 2 == 0) { //Digito par y Mes par
         Alert.alert("Resultado", "Puedes circular los días : Lunes, Miercoles, Viernes, Domingo")
-      } else if (ultimoDigito % 2 == 1 && mes % 2 == 0) {//Digito impar y Mes par
+      } else if (ultimoDigito % 2 == 1 && mghes % 2 == 0) {//Digito impar y Mes par
         Alert.alert("Resultado", "Puedes circular los días : Martes, Jueves, Sabado, Domingo")
       }
     } else {
